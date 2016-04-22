@@ -278,6 +278,14 @@
     box-shadow:         inset 1px 1px 1px darkgray;
 }
 
+.docson .signature-type-expandable::after {
+  content: "+";
+}
+
+.docson .signature-type-expanded::after {
+  content: "-";
+}
+
 .docson .signature-description {
     padding-left: 6px;
     padding-bottom: 3px;
