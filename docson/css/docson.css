@@ -279,12 +279,13 @@
 }
 
 .docson .signature-type-expandable::after {
-  content: "  +";
+  content: "\00a0+";
 }
 
 .docson .signature-type-expanded::after {
-  content: "  -";
+  content: "\00a0-";
 }
+
 
 .docson .signature-description {
     padding-left: 6px;
